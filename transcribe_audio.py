@@ -5,7 +5,7 @@ import io
 import tempfile
 import os
 
-openai.api_key ="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"
+openai.api_key ="your api key here"
 def transcribe_audio(audio_filename):
     audio_file= open(audio_filename, 'rb') 
     
