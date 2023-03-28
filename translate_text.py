@@ -1,5 +1,5 @@
 import openai
-openai.api_key ="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"
+openai.api_key ="your api key here"
 def translate_to_chinese(text):
     prompt = f"Translate the following English text to Chinese:\n\n{text}"
 
