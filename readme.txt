@@ -4,8 +4,7 @@ Real-Time Translate
 环境准备
 确保安装 Python 3（建议使用 Python 3.7 或更高版本）。
 安装项目所需的依赖库：
-bash
-Copy code
+
 pip install -r requirements.txt
 项目结构
 main.py - 程序入口，实现整个流程的集成。
@@ -15,8 +14,7 @@ translate_text.py - 将英文文本翻译成中文文本。
 使用方法
 打开命令行终端，进入项目根目录。
 运行 main.py：
-bash
-Copy code
+
 python main.py
 程序将在 3 秒后自动开始录音，录音时长为 1 分钟。
 录音结束后，程序会将音频文件转录为英文文本并翻译成中文文本。
